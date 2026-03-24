@@ -27,7 +27,7 @@ Now lets follow the detailed instructions to replicate this.
 
 2.  Installation & Setup
 
-   (i) git clone https://github.com/SriAbir/AgenticAI.git
+   (i) git clone https://github.com/SriAbir/TOSEMAgenticAI.git
 
    (ii) cd AgenticAI
 
