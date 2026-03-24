@@ -1,15 +1,17 @@
 # agenticAI project
 
-This project is a simple project that illustrates how to use two different AI models to have a conversation with each other. 
+We simulated three-role agent interactions — a Designer (responsible for conceptual design and improvement) and a Programmer (responsible for implementation) and a Compiler (Solves Compilation Error)— across 19 model pair combinations and 8 Programming task
 
-The idea is to test how the models behave over time, so please let the conversation run for a while. 
+## Contents Explained
+The content of each folder/file is explained as follows:
 
-This program has only one argument --prompt "What you want the model to do".
+Folder: Conversation Files- Annotated excel files containing agent conversation transcripts. Organized under two folfers i)WithCompiler ii) WithoutCompiler
 
-## What happens in the code
-There is one class that keeps the conversation with the model. 
+Folder: agenticAI-main- The framework and program used to generate the conversation along with instructions to replicate it
 
-The main script instantiates two of these classes, starts the conversation between two models in two different servers. 
+File: Appendix- Appendix File containing additional details to support the main paper
+
+Folder: Metrics- i) roleAlignmentFinal.py - Python script to measure Role Alignment Score of conversation ii)TopicStability.py - Python script to measure Topic Stability Score of conversation iii) TopicStability - Python script to measure Loop Detection Score and Loop Repetition rate of conversation
 
 ## Using the key
 If you want to use the OpenAI servers, or another server with the API KEY, please set the OPENAI_API_KEY environment variable, for example: export OPENAI_API_KEY="your_token_here" 
